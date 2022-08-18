@@ -2,7 +2,7 @@
 # Calcula el área de un círculo de 5 de radio
 import math
 def area_circulo(radio):
-    area = math.pi * radio * radio
+    area = math.pi * (radio**2)
     return area
 
 print("El area del circulo es:",area_circulo(radio=5))
